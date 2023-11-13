@@ -1,0 +1,20 @@
+import cv2 as cv
+import mediapipe as mp
+from handTracking import HandTracking
+
+track = HandTracking()
+
+cap = cv.VideoCapture(0)
+
+while True:
+    isTrue, img = cap.read()
+    img = cv.flip(img, 1)
+    img = track.handDetect(img)
+    lmList = track.findHand(img)
+    img = track.badFinger(img, lmList)
+    cv.imshow('Testing', img)
+
+    if cv.waitKey(1) & 0xFF == ord("q"):
+        break
+
+cv.destroyAllWindows()
