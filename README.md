@@ -3,6 +3,8 @@
 Using mediapipe from Google to create a middle finger detection!
 
 
-<img src="https://github.com/phamkinhquoc2002/middle-finger-detection/blob/main/middle_finger.jpg" alt="test_img" width="300" height="300">
+<div align="center">
+  <img src="path/to/image.jpg" alt="Image Description" width="350" height="300">
+</div>
 
 
