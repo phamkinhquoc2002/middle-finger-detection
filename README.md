@@ -4,7 +4,9 @@
    Using mediapipe from Google to create a middle finger detection!
 </div>
 
-### Example
+<div align="center">
+   ### Example
+</div>
 <div align="center">
    <img src="middle_finger.jpg" alt="Image Description" width="500" height="400">
 </div>
