@@ -4,7 +4,7 @@
   <p style="font-style: italic; font-size: 1.2em;">Using MediaPipe from Google to create a middle finger detection!</p>
 </div>
 
----
+
 
 ## Example
 
